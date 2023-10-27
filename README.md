@@ -4,10 +4,10 @@ A place to put and get lyrics to songs, along with other data
 ## How to contribute:
 1. Find a song you want to add
 2. Create a fork of this repository
-3. Make a file named `lyrics.txt` at the path `{ARTIST}/{SONG_NAME}/` (all lowercase)
+3. Make a file named `lyrics.txt` at the path `{ARTIST}/{SONG_NAME}/` (all lowercase, only a-z and spaces aka no special characters)
 4. Put the lyrics there and save the file
 5. Create another file named `info.json` and put it in the same folder
-6. Put the info based on the template below in there
+6. Put the info based on the template below in there (if certain info isn't available, replace it with `null`)
 ```json
 {
   "song": "Song Name",
